@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdSetQDFAdapter"
-  s.version      = "2.0.1.1"
+  s.version      = "2.0.1.2"
   s.summary      = "AdSet广告对接适配器类"
   s.description  = <<-DESC
                     AdSetQDFAdapter 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.source       = {
     :git => 'https://github.com/OSETSDK/AdSetQDFAdapter.git',
